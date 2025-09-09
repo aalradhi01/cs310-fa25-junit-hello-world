@@ -49,4 +49,9 @@ public class ExampleTest {
         assertEquals(expectedReverse3, actual);
     }
     
+        @Test
+    public void testReverseCustom() {
+        String actual = main.reverse("Ali");
+        assertEquals("ilA", actual);
+    }
 }
